@@ -7,6 +7,8 @@ module.exports = {
     storage: "taskmanager.sqlite",
     define: {
       underscored: true,
-    }
-  }
+    },
+  },
+  jwtSecret: "TaskManager-API",
+  jwtSession: { session: false },
 };
